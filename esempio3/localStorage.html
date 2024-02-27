@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form di registrazione</title>
+    <!-- Link Boostrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="text-center">
+      <h3 class="display-4 text-center mt-5">Form di registrazione</h3>
+      <br />
+      <div class="title"></div>
+      <!-- ☑️Questo è un campo di input di tipo "text" con l'id "usr". Gli utenti possono inserire testo in questo campo. -->
+      <input type="text" id="usr" placeholder="inserisci il tuo nome" />
+
+      <!-- ☑️Questo è un pulsante con l'id "log_btn" e l'etichetta "Log".  -->
+
+      <button id="log_btn" type="button" class="btn btn-success">Salva</button>
+
+      <!-- ☑️Altro pulsante con l'id "delete_btn" e l'etichetta "Delete".  -->
+
+      <button id="delete_btn" type="reset" class="btn btn-danger">Cancella</button>
+    </div>
+    <!-- Link Bootstrap JAVASCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- collegamento js -->
+    <script src="./localStorage.js"></script>
+  </body>
+</html>
